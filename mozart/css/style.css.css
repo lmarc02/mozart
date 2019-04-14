@@ -1,0 +1,120 @@
+
+.body{
+	display:block;
+}
+.backgroundColor{
+	background-color: #DCDCDC;
+	margin:50px;
+}
+.borderRadius{
+	border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+}
+ h2 {
+    font-family: Lobster, Monospace;
+  }
+ h1{
+	 float:right;
+ }
+ .header{
+	 width: ;
+	 background-color:#DCDCDC;
+	 display:block;
+	 padding: none;
+	 margin: 0px;
+	 margin-bottom:0px;
+	 
+ }
+ ul#menu li{
+	 display:inline;
+	 
+	 
+ }
+ .nav{
+	 padding: 1px;
+	 margin: 0px;
+	 margin-top: 0px;
+	 display: block;
+	 background-color: black;
+	 color:white;
+ }
+ ul#menu li a{
+	 color:white;
+	 text-decoration:none;
+	 margin:0px;
+	 padding-left:5px;
+	 padding-right:50px;
+	 padding-bottom:5px;
+	 padding-top:5px;
+	 
+	 
+ }
+ .navLi{
+	 padding:0px;
+	 display: inline;
+	
+ }
+ul#menu li a:hover{
+	background-color:#918e8e;
+	
+}
+.homeText{
+	height:500px;
+	width:69%;
+	background-color:#f7f7f7;
+	float:left;
+	margin-top:5px;
+	padding: 5px;
+}
+.homeImg{
+	float:right;
+	height:510px;
+	width:28%;
+	margin-top:5px;
+}
+footer{
+	 height:50px;
+	 width:;
+	 background-color:black;
+	 display:block;
+	 margin-top:525px;
+	 color:white
+	 
+ }
+ .life1{
+	 width:30%;
+	 height:400px;
+	 background-color:white;
+	 margin:2px;
+	 float:left;
+	 padding:10px;
+ }
+ .life2{
+	 width:30%;
+	 height:400px;
+	 background-color:white;
+	 margin:2px;
+	 float:right;
+	 padding:10px;
+ }
+ .life3{
+	 width:30%;
+	 height:400px;
+	 background-color:white;
+	 margin:2px;
+	 float:center;
+	 margin-left:;
+	 margin-top:21px;
+	 padding:10px;
+ }
+ #lifeFooter{
+	 height:50px;
+	 width:;
+	 background-color:black;
+	 display:block;
+	 margin-top:100px;
+	 color:white
+ }
+ 

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!--ptru diverse device-width-->
+	<link rel="icon" href="images/Piano-Logo.png">
+	<meta charset="utf-8"/> <!--html validator (verifica greseli)-->
+	<title> Subscribe </title>
+	<link rel="stylesheet" type="text/css" href="css/style.css.css"> 
+	<script type='text/javascript'>
+		/*function validate(){
+			if(document.myForm.firstName.value == ""){
+				document.myForm.firstName.focus() ;
+				
+				return false;
+			} 
+			if(document.myForm.lastName.value == ""){
+				document.myForm.lastName.focus() ;
+				return false;
+			}
+			if(document.myForm.gender.value == ""){
+				document.myForm.gender.focus() ;
+				return false;
+			}
+			if(document.myForm.emailAdress.value == ""){
+				document.myForm.emailAdress.focus() ;
+				return false;
+			}
+			return done();
+		}
+		function done(){
+		 return document.write("Thank You");
+		}
+		*/
+		 var frmValidator = new Validator("myForm");
+			frmValidator.EnableOnPageErrorDisplaySingleBox();
+			frmValidator.EnableMgsgTogether();
+			frmValidator.addValidation("firstName", "req", "Please enter your first name");
+			frmValidator.addValidation("firstName", "maxlen=20", "Max length dor First Name is 20");
+	</script>
+	
+</head>
+<body class="backgroundColor">
+	
+	<header>
+		<div class="header">
+			<img class= "borderRadius" src="images/Wolfgang-amadeus-mozart.jpg"alt="Smiley face" height="100" width="100">
+			<h1>Wolfgang Amadeus Mozart</h1>
+		</div>
+	</header>
+	
+	<nav>
+		<div class="nav">
+			<ul id= "menu" style="list-style-type:none ">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="life.html">Life</a></li>
+				<li><a href="opera.html">Opera</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="subs.html">Subscribe</a></li>
+			</ul>
+		</div>
+		
+	</nav>
+		<h3>Subscribe</h3>
+		<h4>Subscribe here!!!</h4>
+		<form name="myForm" action="" >
+			<p>
+			<label for='firstName'>First Name </label> <br/>
+			<input  type="text" name="firstName" required></br>
+			</p>
+			
+			<p>
+			<label for='lastName'>Last Name</label><br/>
+			<input type="text" name="lastName" required>  
+			</p>
+			
+			<p>
+			<label for="gender">Gender</label><br/>
+			<input type="radio" name="gender" value="male" required>Male
+			<input type="radio"name="gender" value="female" required>Female 
+			</p>
+			
+			<p>
+			<label for="emailAdress">Email </label></br>
+			<input type="text" name="emailAdress"  value="" required> <br/>
+			</p>
+			
+			<input type="submit" value="Submit" <!--onclick="return(validate()-->)">
+			<p id="correct"></p>
+		</form>
+	
+		
+</body>
+</html>
